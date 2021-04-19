@@ -62,6 +62,19 @@ h1 {
 	font-size: 21px;
 }
 
+.title1 {
+	background-color: #D59898;
+}
+
+.title2 {
+	background-color: #C14543; 
+	color: white;
+}
+
+.title3 {
+	background-color: #E5D198;
+}
+
 #container {
 	margin: 10px;
 	position: relative;
