@@ -1,0 +1,84 @@
+/******HEADER******/
+
+.navbar-brand a {
+	font-size: 2em;
+	font-family: 'Acme' , sans-serif;
+	margin: auto 15px auto;
+	color: white;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-toggle { /*burger button*/
+	background-color: darkorange;
+	border: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { /*burger button hover*/
+    background: #e67e00;
+}
+
+.navbar-default .navbar-toggle .icon-bar { /*burger icon*/
+    background-color: white;
+}
+
+#header-nav {
+	background-color: darkorange;
+	border-radius: 0px;
+	border: none;
+	box-shadow: 0px 1px 5px;
+}
+
+#nav-list {
+	text-align: center;
+	background-color: #ffa333;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 5px;
+}
+
+#nav-list a:hover {
+	background-color: #ffaf4d;
+}
+
+#nav-list li a { /*dropdown menu text*/
+	color: white;
+	font-family: 'Verdana', sans-serif;
+	font-size: 1.2em;
+}
+/****** End Header ******/
+
+/******BODY******/
+
+.container-fluid {
+	margin: 0px 50px 0px;
+
+}
+
+h1 {
+	font-family: 'Acme', sans-serif;
+	color: darkorange;
+	margin-bottom: 40px;
+}
+
+.menu-container {
+	border: 1px solid black;
+	background-color: white;
+	font-family: Verdana, sans-serif;
+	box-shadow: 3px 3px 10px black;
+	background-color: darkorange;
+	color: white;
+	margin-bottom: 50px;
+}
+
+.menu-title {
+	margin: 10px;
+	font-size: 1.7em;
+	font-family: "Acme", sans-serif
+}
+
+.menu-desc {
+	padding: 0px 15px 5px;
+}
